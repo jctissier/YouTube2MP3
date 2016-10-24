@@ -15,3 +15,4 @@ mp3_download_info = 'http://www.youtubeinmp3.com/fetch/?format=JSON&bitrate=1&fi
 extension = '&autostart=1'
 
 # Get the link and open it
+full_link = mp3_download_link + link
