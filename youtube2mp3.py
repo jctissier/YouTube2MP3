@@ -10,3 +10,4 @@ choose = colored("Paste your link and click ENTER:\n", 'red')
 link = input(choose)
 
 main_link = 'http://www.youtubeinmp3.com'
+mp3_download_link = 'http://www.youtubeinmp3.com/download/?video='
