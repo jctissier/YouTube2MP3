@@ -1,4 +1,4 @@
-# :musical_note:YouTube Downloader (MP3/MP4) 
+# :musical_note::tv: YouTube Downloader (MP3/MP4) :tv::musical_note:
 
 Python CLI to automatically convert YouTube video to MP3 (audio) or MP4 (HD video) 
 
