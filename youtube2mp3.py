@@ -20,4 +20,4 @@ r = requests.get(full_link)
 soup = BeautifulSoup(r.content, "lxml")
 href = soup.find_all("a", {"id": "download"})
 href_link = href[0].get('href')
-
+webbrowser.open_new_tab(main_link + href_link)
