@@ -18,4 +18,5 @@ extension = '&autostart=1'
 full_link = mp3_download_link + link
 r = requests.get(full_link)
 soup = BeautifulSoup(r.content, "lxml")
+href = soup.find_all("a", {"id": "download"})
 
