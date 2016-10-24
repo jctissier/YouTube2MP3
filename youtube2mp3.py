@@ -16,3 +16,5 @@ extension = '&autostart=1'
 
 # Get the link and open it
 full_link = mp3_download_link + link
+r = requests.get(full_link)
+
