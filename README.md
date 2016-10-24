@@ -1,2 +1,6 @@
-# Youtube_downloader
-Download any youtube video either as a mp3 or mp4
+# YouTube Downloader (MP3/MP4) 
+
+Python CLI to automatically convert YouTube video to MP3 (audio) or MP4 (HD video) 
+
+
+
