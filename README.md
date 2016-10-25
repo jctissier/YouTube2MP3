@@ -10,4 +10,4 @@ Python CLI to automatically convert YouTube video to MP3 (audio) or MP4 (HD vide
 ##Who Is It For?
 **Anyone who likes to download songs/videos of YouTube**<br/>All you need to do is to paste the link of the YouTube video in your terminal and download will automatically begin. 
 
-<i class="fa fa-download" aria-hidden="false"></i>
+<i class="fa fa-download" aria-hidden="true"></i>
