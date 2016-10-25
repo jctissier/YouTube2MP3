@@ -23,3 +23,4 @@ href_link = href[0].get('href')
 webbrowser.open_new_tab(main_link + href_link)
 
 # JSON parser to get media info
+r = requests.get(mp3_download_info + link)
