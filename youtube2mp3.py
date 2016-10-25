@@ -28,4 +28,5 @@ data = r.json()
 title = data['title']
 length = time.strftime("%M:%S", time.gmtime(int(data['length'])))
 file_size = int(data['filesize'])/1000000
+bitrate = data['bitrate']
 
