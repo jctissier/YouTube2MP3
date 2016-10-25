@@ -30,6 +30,7 @@ length = time.strftime("%M:%S", time.gmtime(int(data['length'])))
 file_size = int(data['filesize'])/1000000
 bitrate = data['bitrate']
 
+# Display Information about each song being downloaded
 cprint("\nDownloading Song:",'yellow')
 print("{:<10}".format("Title:") + colored(title,'blue'))
 print("{:<10}".format("Length:") + colored(length,'blue'))
