@@ -31,3 +31,4 @@ file_size = int(data['filesize'])/1000000
 bitrate = data['bitrate']
 
 cprint("\nDownloading Song:",'yellow')
+print("{:<10}".format("Title:") + colored(title,'blue'))
