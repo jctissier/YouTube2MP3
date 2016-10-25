@@ -26,4 +26,5 @@ webbrowser.open_new_tab(main_link + href_link)
 r = requests.get(mp3_download_info + link)
 data = r.json()
 title = data['title']
+length = time.strftime("%M:%S", time.gmtime(int(data['length'])))
 
