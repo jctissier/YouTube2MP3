@@ -33,3 +33,4 @@ bitrate = data['bitrate']
 cprint("\nDownloading Song:",'yellow')
 print("{:<10}".format("Title:") + colored(title,'blue'))
 print("{:<10}".format("Length:") + colored(length,'blue'))
+print("{:<10}".format("Size:") + colored("{0:.1f}".format(file_size) + "MB",'blue'))
