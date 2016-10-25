@@ -27,4 +27,5 @@ r = requests.get(mp3_download_info + link)
 data = r.json()
 title = data['title']
 length = time.strftime("%M:%S", time.gmtime(int(data['length'])))
+file_size = int(data['filesize'])/1000000
 
