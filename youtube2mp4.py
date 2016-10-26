@@ -9,3 +9,4 @@ import time
 choose = colored("Paste your link and click ENTER:\n", 'red')
 link = input(choose)
 mp4_download_link = 'http://www.youtubeinmp4.com/youtube.php?video='
+mp4_link = 'http://www.youtubeinmp4.com/'
