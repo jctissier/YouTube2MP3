@@ -11,3 +11,4 @@ link = input(choose)
 mp4_download_link = 'http://www.youtubeinmp4.com/youtube.php?video='
 mp4_link = 'http://www.youtubeinmp4.com/'
 mp4_link = 'http://www.youtubeinmp4.com/'
+r = requests.get(full_link)
