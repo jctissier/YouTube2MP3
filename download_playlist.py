@@ -20,3 +20,7 @@ def main():
         download_playlist_info(soup)
     else:
         print("Go to single download")
+        
+def download_playlist_info(soup):
+    try:
+        # Playlist info
