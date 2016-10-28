@@ -6,4 +6,4 @@ from bs4 import BeautifulSoup
 from pprint import pprint
 import time
 
-playlist_link = 'http
+playlist_link = 'http://
