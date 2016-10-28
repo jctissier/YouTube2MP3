@@ -7,4 +7,11 @@ from pprint import pprint
 import time
 
 playlist_link = 'http://www.youtube.com'
-mp3_download_link
+
+
+
+
+
+
+
+mp3_download_link = 'http://www.youtubeinmp3.com/download/?video='
