@@ -15,3 +15,6 @@ extension = '&autostart=1'
 def main():
     r = requests.get(playlist_link)
     soup = BeautifulSoup(r.content, "lxml")
+    if "list" in playlist_link:
+        print("Request to download whole list")
+        download_playlist_info(soup)
