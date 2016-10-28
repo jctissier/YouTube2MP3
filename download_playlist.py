@@ -9,4 +9,4 @@ import time
 # Globals
 main_link = 'http://www.youtube.com'
 mp3_download_link = 'http://www.youtubeinmp3.com/download/?video='
-mp3_download_info = 
+mp3_download_info = '
