@@ -24,3 +24,5 @@ def main():
 def download_playlist_info(soup):
     try:
         # Playlist info
+        length = soup.find_all("span", {"id": "playlist-length"})[0]                   # Get playlist length
+        list_length = int(length.text.replace("videos", ""))
