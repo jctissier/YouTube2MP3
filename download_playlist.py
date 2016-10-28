@@ -18,3 +18,5 @@ def main():
     if "list" in playlist_link:
         print("Request to download whole list")
         download_playlist_info(soup)
+    else:
+        print("Go to single download")
