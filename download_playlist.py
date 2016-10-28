@@ -1,2 +1,2 @@
 import webbrowser
-from termcolor
+from termcolor import cprint, colored
