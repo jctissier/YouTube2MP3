@@ -28,4 +28,6 @@ def download_playlist_info(soup):
         list_length = int(length.text.replace("videos", ""))
         print("{:<20}{:<20}".format("Playlist Length: ", colored(str(list_length) + " videos",'red')))
         title = soup.find_all("h3", {"class": "playlist-title"})[0].text
+        print("{:<20}{:<20}".format('Playlist Title: ', colored(title.strip(),'red')))
+        author = soup.find_all("li", {"class": "author-attribution"})[0].text
         
