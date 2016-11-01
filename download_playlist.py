@@ -26,3 +26,6 @@ def download_playlist_info(soup):
         # Playlist info
         length = soup.find_all("span", {"id": "playlist-length"})[0]                   # Get playlist length
         list_length = int(length.text.replace("videos", ""))
+        print("{:<20}{:<20}".format("Playlist Length: ", colored(str(list_length) + " videos",'red')))
+        title = soup.find_all("h3", {"class": "playlist-title"})[0].text
+        
