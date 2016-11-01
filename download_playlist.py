@@ -32,4 +32,6 @@ def download_playlist_info(soup):
         author = soup.find_all("li", {"class": "author-attribution"})[0].text
         print("{:<20}{:<20}".format('Playlist Author: ', colored(author.strip(),'red')))
         download_playlist(soup, start=0, playlist_size=list_length)
+    except IndexError:
+        print("This is not a playlist, redirect to method that downloads one song")
 
