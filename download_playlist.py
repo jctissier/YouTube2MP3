@@ -35,3 +35,7 @@ def download_playlist_info(soup):
     except IndexError:
         print("This is not a playlist, redirect to method that downloads one song")
 
+        
+def download_playlist(soup, start, playlist_size):
+        try:
+
