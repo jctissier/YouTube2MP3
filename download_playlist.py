@@ -51,3 +51,5 @@ def song_info(href_string, index):
     # JSON parser to get media info
     r = requests.get(mp3_download_info + str(href_string))
     data = r.json()
+    title = data['title']
+    length = time.strftime("%M:%S", time.gmtime(int(data['length'])))
