@@ -49,4 +49,5 @@ def download_playlist(soup, start, playlist_size):
 
 def song_info(href_string, index):
     # JSON parser to get media info
-
+    r = requests.get(mp3_download_info + str(href_string))
+    data = r.json()
