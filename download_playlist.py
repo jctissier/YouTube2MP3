@@ -61,5 +61,11 @@ def song_info(href_string, index):
     print("{:<20}".format("Length:") + colored(length, 'blue'))
     print("{:<20}".format("Size:") + colored("{0:.1f}".format(file_size) + "MB", 'blue'))
     print("{:<20}".format("Bitrate:") + colored(bitrate + "kbps", 'blue'))
+    if index == 0:
+        pass
+    elif index == 10 or index == 20 or index == 30 or index == 40:
+        time.sleep(10)
+    else:
+        time.sleep(3)
     
     
