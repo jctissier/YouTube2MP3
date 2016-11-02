@@ -42,5 +42,6 @@ def download_playlist(soup, start, playlist_size):
                 href = soup.find_all("a", {"class": "yt-uix-sessionlink spf-link playlist-video clearfix spf-link "})[x]
                 # print(href.get('href'))
                 song_info(href_string=href, index=x)
+                download_songs(href_string=href)
                 
 
