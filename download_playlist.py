@@ -46,5 +46,7 @@ def download_playlist(soup, start, playlist_size):
         except IndexError:
             print("Video #" + str(x+1) + " in the playlist has been removed or is not valid...")
             download_playlist(soup, start=x+1, playlist_size=playlist_size)
-                
+
+def song_info(href_string, index):
+    # JSON parser to get media info
 
