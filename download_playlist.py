@@ -43,5 +43,8 @@ def download_playlist(soup, start, playlist_size):
                 # print(href.get('href'))
                 song_info(href_string=href, index=x)
                 download_songs(href_string=href)
+        except IndexError:
+            print("Video #" + str(x+1) + " in the playlist has been removed or is not valid...")
+            
                 
 
