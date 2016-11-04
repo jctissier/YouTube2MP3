@@ -67,5 +67,8 @@ def song_info(href_string, index):
         time.sleep(10)
     else:
         time.sleep(3)
+        
+def download_songs(href_string):
+
     
     
