@@ -70,6 +70,8 @@ def song_info(href_string, index):
         
 def download_songs(href_string):
     full_link = mp3_download_link + str(href_string)
+    r = requests.get(full_link)
+
 
 
     
