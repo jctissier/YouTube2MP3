@@ -74,6 +74,7 @@ def download_songs(href_string):
     soup = BeautifulSoup(r.content, "lxml")
     href = soup.find_all("a", {"id": "download"})
     href_link = href[0].get('href')
+    print(main_link + href_link)
 
 
 
