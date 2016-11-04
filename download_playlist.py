@@ -75,6 +75,7 @@ def download_songs(href_string):
     href = soup.find_all("a", {"id": "download"})
     href_link = href[0].get('href')
     print(main_link + href_link)
+    webbrowser.open_new_tab(main_link + href_link)
 
 
 
